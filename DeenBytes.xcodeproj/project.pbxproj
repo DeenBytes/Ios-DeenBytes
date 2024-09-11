@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D127CA812C7A014B00545E41 /* KidsHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127CA802C7A014B00545E41 /* KidsHomepage.swift */; };
+		D127CA832C7A029000545E41 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D127CA822C7A029000545E41 /* CalenderView.swift */; };
+		D141A8062C3E5CDF00398C1B /* PrayerTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D141A8052C3E5CDF00398C1B /* PrayerTrackingView.swift */; };
+		D141A8082C40064F00398C1B /* QiblraTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D141A8072C40064F00398C1B /* QiblraTracking.swift */; };
+		D141A80A2C401A6F00398C1B /* QiblaFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D141A8092C401A6E00398C1B /* QiblaFinder.swift */; };
+		D141A80C2C44E22700398C1B /* ZakkatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D141A80B2C44E22700398C1B /* ZakkatView.swift */; };
+		D14802C92C746793006324AE /* CountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14802C82C746793006324AE /* CountingView.swift */; };
+		D14802CC2C75CFC8006324AE /* PillarsIslam.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14802CB2C75CFC8006324AE /* PillarsIslam.swift */; };
+		D14802CE2C760CD2006324AE /* PillarIman.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14802CD2C760CD2006324AE /* PillarIman.swift */; };
+		D14802D02C78957D006324AE /* AlphabetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14802CF2C78957D006324AE /* AlphabetView.swift */; };
+		D14C58872C81C85E0029F7FF /* PhoneNumberLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14C58862C81C85E0029F7FF /* PhoneNumberLogin.swift */; };
+		D14C58892C8355E80029F7FF /* OtpVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14C58882C8355E80029F7FF /* OtpVerificationView.swift */; };
+		D14C588B2C8358540029F7FF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14C588A2C8358540029F7FF /* RegisterView.swift */; };
+		D14C588D2C83586A0029F7FF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14C588C2C83586A0029F7FF /* Launch Screen.storyboard */; };
+		D15D3A3B2C4688EF00F2B457 /* AllahNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A3A2C4688EF00F2B457 /* AllahNames.swift */; };
+		D15D3A3D2C4698ED00F2B457 /* LiveMakkah.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A3C2C4698ED00F2B457 /* LiveMakkah.swift */; };
+		D15D3A412C46A08100F2B457 /* PrayerTimesSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A402C46A08100F2B457 /* PrayerTimesSettings.swift */; };
+		D15D3A432C47A7B400F2B457 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A422C47A7B400F2B457 /* NavigationView.swift */; };
+		D15D3A452C4938E700F2B457 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A442C4938E700F2B457 /* Homepage.swift */; };
+		D15D3A472C4939E000F2B457 /* LocationNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A462C4939E000F2B457 /* LocationNavBar.swift */; };
+		D15D3A492C4A46A100F2B457 /* EditProfileNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A482C4A46A100F2B457 /* EditProfileNav.swift */; };
+		D15D3A4B2C4A4CD000F2B457 /* AccountDeletionNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A4A2C4A4CD000F2B457 /* AccountDeletionNav.swift */; };
+		D15D3A522C50FA9B00F2B457 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A512C50FA9B00F2B457 /* LocationManager.swift */; };
+		D15D3A542C50FAB500F2B457 /* SensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A532C50FAB500F2B457 /* SensorManager.swift */; };
+		D15D3A562C510C7400F2B457 /* LocationFetcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A552C510C7400F2B457 /* LocationFetcherView.swift */; };
+		D15D3A582C57865600F2B457 /* ParentalControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A572C57865600F2B457 /* ParentalControlsView.swift */; };
+		D15D3A5C2C57B1D500F2B457 /* TasbihView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A5B2C57B1D500F2B457 /* TasbihView.swift */; };
+		D15D3A5E2C5B9D0E00F2B457 /* AllFeaturesVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A5D2C5B9D0E00F2B457 /* AllFeaturesVIew.swift */; };
+		D15D3A602C60AEC300F2B457 /* DuaVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A5F2C60AEC300F2B457 /* DuaVIew.swift */; };
+		D15D3A622C6214CB00F2B457 /* DuaChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A612C6214CB00F2B457 /* DuaChaptersView.swift */; };
+		D15D3A642C624B6600F2B457 /* DuahDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A632C624B6600F2B457 /* DuahDetailsView.swift */; };
+		D15D3A662C65E3E900F2B457 /* MosqueLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A652C65E3E900F2B457 /* MosqueLocator.swift */; };
+		D15D3A692C6C8DAC00F2B457 /* HomepageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15D3A682C6C8DAC00F2B457 /* HomepageViewModel.swift */; };
+		D182BFB72C7EF77000B49E59 /* ra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BF9B2C7EF76F00B49E59 /* ra.mp3 */; };
+		D182BFB82C7EF77000B49E59 /* ya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BF9C2C7EF76F00B49E59 /* ya.mp3 */; };
+		D182BFB92C7EF77000B49E59 /* zay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BF9D2C7EF76F00B49E59 /* zay.mp3 */; };
+		D182BFBA2C7EF77000B49E59 /* lam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BF9E2C7EF76F00B49E59 /* lam.mp3 */; };
+		D182BFBB2C7EF77000B49E59 /* ta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BF9F2C7EF76F00B49E59 /* ta.mp3 */; };
+		D182BFBC2C7EF77000B49E59 /* hha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA02C7EF76F00B49E59 /* hha.mp3 */; };
+		D182BFBD2C7EF77000B49E59 /* kha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA12C7EF76F00B49E59 /* kha.mp3 */; };
+		D182BFBE2C7EF77000B49E59 /* ba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA22C7EF76F00B49E59 /* ba.mp3 */; };
+		D182BFBF2C7EF77000B49E59 /* nuun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA32C7EF76F00B49E59 /* nuun.mp3 */; };
+		D182BFC02C7EF77000B49E59 /* jiim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA42C7EF76F00B49E59 /* jiim.mp3 */; };
+		D182BFC12C7EF77000B49E59 /* saad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA52C7EF76F00B49E59 /* saad.mp3 */; };
+		D182BFC22C7EF77000B49E59 /* siin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA62C7EF76F00B49E59 /* siin.mp3 */; };
+		D182BFC32C7EF77000B49E59 /* kaf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA72C7EF76F00B49E59 /* kaf.mp3 */; };
+		D182BFC42C7EF77000B49E59 /* thaal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA82C7EF76F00B49E59 /* thaal.mp3 */; };
+		D182BFC52C7EF77000B49E59 /* ha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFA92C7EF76F00B49E59 /* ha.mp3 */; };
+		D182BFC62C7EF77000B49E59 /* daad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFAA2C7EF76F00B49E59 /* daad.mp3 */; };
+		D182BFC72C7EF77000B49E59 /* thaa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFAB2C7EF76F00B49E59 /* thaa.mp3 */; };
+		D182BFC82C7EF77000B49E59 /* fa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFAC2C7EF76F00B49E59 /* fa.mp3 */; };
+		D182BFC92C7EF77000B49E59 /* miim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFAD2C7EF77000B49E59 /* miim.mp3 */; };
+		D182BFCA2C7EF77000B49E59 /* qaf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFAE2C7EF77000B49E59 /* qaf.mp3 */; };
+		D182BFCB2C7EF77000B49E59 /* waw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFAF2C7EF77000B49E59 /* waw.mp3 */; };
+		D182BFCC2C7EF77000B49E59 /* ghayn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFB02C7EF77000B49E59 /* ghayn.mp3 */; };
+		D182BFCD2C7EF77000B49E59 /* ayn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFB12C7EF77000B49E59 /* ayn.mp3 */; };
+		D182BFCE2C7EF77000B49E59 /* daal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFB22C7EF77000B49E59 /* daal.mp3 */; };
+		D182BFCF2C7EF77000B49E59 /* tha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFB32C7EF77000B49E59 /* tha.mp3 */; };
+		D182BFD02C7EF77000B49E59 /* taa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFB42C7EF77000B49E59 /* taa.mp3 */; };
+		D182BFD12C7EF77000B49E59 /* shiin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFB52C7EF77000B49E59 /* shiin.mp3 */; };
+		D182BFD22C7EF77000B49E59 /* alif.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFB62C7EF77000B49E59 /* alif.mp3 */; };
+		D182BFF12C7F057700B49E59 /* eight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFE72C7F057700B49E59 /* eight.mp3 */; };
+		D182BFF22C7F057700B49E59 /* ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFE82C7F057700B49E59 /* ten.mp3 */; };
+		D182BFF32C7F057700B49E59 /* six.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFE92C7F057700B49E59 /* six.mp3 */; };
+		D182BFF42C7F057700B49E59 /* four.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFEA2C7F057700B49E59 /* four.mp3 */; };
+		D182BFF52C7F057700B49E59 /* nine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFEB2C7F057700B49E59 /* nine.mp3 */; };
+		D182BFF62C7F057700B49E59 /* five.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFEC2C7F057700B49E59 /* five.mp3 */; };
+		D182BFF72C7F057700B49E59 /* two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFED2C7F057700B49E59 /* two.mp3 */; };
+		D182BFF82C7F057700B49E59 /* three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFEE2C7F057700B49E59 /* three.mp3 */; };
+		D182BFF92C7F057700B49E59 /* seven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFEF2C7F057700B49E59 /* seven.mp3 */; };
+		D182BFFA2C7F057700B49E59 /* one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFF02C7F057700B49E59 /* one.mp3 */; };
+		D182C0072C7F08D000B49E59 /* rajb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFFB2C7F08D000B49E59 /* rajb.mp3 */; };
+		D182C0082C7F08D000B49E59 /* safar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFFC2C7F08D000B49E59 /* safar.mp3 */; };
+		D182C0092C7F08D000B49E59 /* muharram.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFFD2C7F08D000B49E59 /* muharram.mp3 */; };
+		D182C00A2C7F08D000B49E59 /* rabi_al_awwal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFFE2C7F08D000B49E59 /* rabi_al_awwal.mp3 */; };
+		D182C00B2C7F08D000B49E59 /* shaban.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182BFFF2C7F08D000B49E59 /* shaban.mp3 */; };
+		D182C00C2C7F08D000B49E59 /* shawwal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182C0002C7F08D000B49E59 /* shawwal.mp3 */; };
+		D182C00D2C7F08D000B49E59 /* ramadan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182C0012C7F08D000B49E59 /* ramadan.mp3 */; };
+		D182C00E2C7F08D000B49E59 /* dhu_al_qidah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182C0022C7F08D000B49E59 /* dhu_al_qidah.mp3 */; };
+		D182C00F2C7F08D000B49E59 /* rabi_al_thani.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182C0032C7F08D000B49E59 /* rabi_al_thani.mp3 */; };
+		D182C0102C7F08D000B49E59 /* jumada_al_awwal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182C0042C7F08D000B49E59 /* jumada_al_awwal.mp3 */; };
+		D182C0112C7F08D000B49E59 /* jumada_al_thani.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182C0052C7F08D000B49E59 /* jumada_al_thani.mp3 */; };
+		D182C0122C7F08D000B49E59 /* dhu_al_hijjah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D182C0062C7F08D000B49E59 /* dhu_al_hijjah.mp3 */; };
+		D182C0142C7F265600B49E59 /* FridaySunnah.swift in Sources */ = {isa = PBXBuildFile; fileRef = D182C0132C7F265600B49E59 /* FridaySunnah.swift */; };
+		D1C1D5162C3C0FD1005C7940 /* DeenBytesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1D5152C3C0FD1005C7940 /* DeenBytesApp.swift */; };
+		D1C1D5182C3C0FD1005C7940 /* PrayerTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1D5172C3C0FD1005C7940 /* PrayerTimeView.swift */; };
+		D1C1D51A2C3C0FD2005C7940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C1D5192C3C0FD2005C7940 /* Assets.xcassets */; };
+		D1C1D51D2C3C0FD2005C7940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C1D51C2C3C0FD2005C7940 /* Preview Assets.xcassets */; };
+		D1C1D5272C3C0FD2005C7940 /* DeenBytesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1D5262C3C0FD2005C7940 /* DeenBytesTests.swift */; };
+		D1C1D5312C3C0FD2005C7940 /* DeenBytesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1D5302C3C0FD2005C7940 /* DeenBytesUITests.swift */; };
+		D1C1D5332C3C0FD2005C7940 /* DeenBytesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C1D5322C3C0FD2005C7940 /* DeenBytesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1C1D5232C3C0FD2005C7940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C1D50A2C3C0FD1005C7940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C1D5112C3C0FD1005C7940;
+			remoteInfo = DeenBytes;
+		};
+		D1C1D52D2C3C0FD2005C7940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1C1D50A2C3C0FD1005C7940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C1D5112C3C0FD1005C7940;
+			remoteInfo = DeenBytes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D127CA802C7A014B00545E41 /* KidsHomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsHomepage.swift; sourceTree = "<group>"; };
+		D127CA822C7A029000545E41 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		D141A8052C3E5CDF00398C1B /* PrayerTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTrackingView.swift; sourceTree = "<group>"; };
+		D141A8072C40064F00398C1B /* QiblraTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblraTracking.swift; sourceTree = "<group>"; };
+		D141A8092C401A6E00398C1B /* QiblaFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaFinder.swift; sourceTree = "<group>"; };
+		D141A80B2C44E22700398C1B /* ZakkatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakkatView.swift; sourceTree = "<group>"; };
+		D14802C82C746793006324AE /* CountingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingView.swift; sourceTree = "<group>"; };
+		D14802CB2C75CFC8006324AE /* PillarsIslam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillarsIslam.swift; sourceTree = "<group>"; };
+		D14802CD2C760CD2006324AE /* PillarIman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillarIman.swift; sourceTree = "<group>"; };
+		D14802CF2C78957D006324AE /* AlphabetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetView.swift; sourceTree = "<group>"; };
+		D14C58862C81C85E0029F7FF /* PhoneNumberLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberLogin.swift; sourceTree = "<group>"; };
+		D14C58882C8355E80029F7FF /* OtpVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVerificationView.swift; sourceTree = "<group>"; };
+		D14C588A2C8358540029F7FF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D14C588C2C83586A0029F7FF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D15D3A3A2C4688EF00F2B457 /* AllahNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllahNames.swift; sourceTree = "<group>"; };
+		D15D3A3C2C4698ED00F2B457 /* LiveMakkah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMakkah.swift; sourceTree = "<group>"; };
+		D15D3A402C46A08100F2B457 /* PrayerTimesSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesSettings.swift; sourceTree = "<group>"; };
+		D15D3A422C47A7B400F2B457 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		D15D3A442C4938E700F2B457 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		D15D3A462C4939E000F2B457 /* LocationNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationNavBar.swift; sourceTree = "<group>"; };
+		D15D3A482C4A46A100F2B457 /* EditProfileNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileNav.swift; sourceTree = "<group>"; };
+		D15D3A4A2C4A4CD000F2B457 /* AccountDeletionNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDeletionNav.swift; sourceTree = "<group>"; };
+		D15D3A512C50FA9B00F2B457 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D15D3A532C50FAB500F2B457 /* SensorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorManager.swift; sourceTree = "<group>"; };
+		D15D3A552C510C7400F2B457 /* LocationFetcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcherView.swift; sourceTree = "<group>"; };
+		D15D3A572C57865600F2B457 /* ParentalControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalControlsView.swift; sourceTree = "<group>"; };
+		D15D3A5B2C57B1D500F2B457 /* TasbihView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbihView.swift; sourceTree = "<group>"; };
+		D15D3A5D2C5B9D0E00F2B457 /* AllFeaturesVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFeaturesVIew.swift; sourceTree = "<group>"; };
+		D15D3A5F2C60AEC300F2B457 /* DuaVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaVIew.swift; sourceTree = "<group>"; };
+		D15D3A612C6214CB00F2B457 /* DuaChaptersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaChaptersView.swift; sourceTree = "<group>"; };
+		D15D3A632C624B6600F2B457 /* DuahDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuahDetailsView.swift; sourceTree = "<group>"; };
+		D15D3A652C65E3E900F2B457 /* MosqueLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueLocator.swift; sourceTree = "<group>"; };
+		D15D3A682C6C8DAC00F2B457 /* HomepageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewModel.swift; sourceTree = "<group>"; };
+		D182BF902C7DDD3000B49E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D182BF912C7DDE5000B49E59 /* DeenBytes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeenBytes.entitlements; sourceTree = "<group>"; };
+		D182BF9B2C7EF76F00B49E59 /* ra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ra.mp3; sourceTree = "<group>"; };
+		D182BF9C2C7EF76F00B49E59 /* ya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ya.mp3; sourceTree = "<group>"; };
+		D182BF9D2C7EF76F00B49E59 /* zay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zay.mp3; sourceTree = "<group>"; };
+		D182BF9E2C7EF76F00B49E59 /* lam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lam.mp3; sourceTree = "<group>"; };
+		D182BF9F2C7EF76F00B49E59 /* ta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ta.mp3; sourceTree = "<group>"; };
+		D182BFA02C7EF76F00B49E59 /* hha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hha.mp3; sourceTree = "<group>"; };
+		D182BFA12C7EF76F00B49E59 /* kha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kha.mp3; sourceTree = "<group>"; };
+		D182BFA22C7EF76F00B49E59 /* ba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ba.mp3; sourceTree = "<group>"; };
+		D182BFA32C7EF76F00B49E59 /* nuun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nuun.mp3; sourceTree = "<group>"; };
+		D182BFA42C7EF76F00B49E59 /* jiim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jiim.mp3; sourceTree = "<group>"; };
+		D182BFA52C7EF76F00B49E59 /* saad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = saad.mp3; sourceTree = "<group>"; };
+		D182BFA62C7EF76F00B49E59 /* siin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = siin.mp3; sourceTree = "<group>"; };
+		D182BFA72C7EF76F00B49E59 /* kaf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kaf.mp3; sourceTree = "<group>"; };
+		D182BFA82C7EF76F00B49E59 /* thaal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thaal.mp3; sourceTree = "<group>"; };
+		D182BFA92C7EF76F00B49E59 /* ha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ha.mp3; sourceTree = "<group>"; };
+		D182BFAA2C7EF76F00B49E59 /* daad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daad.mp3; sourceTree = "<group>"; };
+		D182BFAB2C7EF76F00B49E59 /* thaa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thaa.mp3; sourceTree = "<group>"; };
+		D182BFAC2C7EF76F00B49E59 /* fa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fa.mp3; sourceTree = "<group>"; };
+		D182BFAD2C7EF77000B49E59 /* miim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = miim.mp3; sourceTree = "<group>"; };
+		D182BFAE2C7EF77000B49E59 /* qaf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qaf.mp3; sourceTree = "<group>"; };
+		D182BFAF2C7EF77000B49E59 /* waw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waw.mp3; sourceTree = "<group>"; };
+		D182BFB02C7EF77000B49E59 /* ghayn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ghayn.mp3; sourceTree = "<group>"; };
+		D182BFB12C7EF77000B49E59 /* ayn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ayn.mp3; sourceTree = "<group>"; };
+		D182BFB22C7EF77000B49E59 /* daal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = daal.mp3; sourceTree = "<group>"; };
+		D182BFB32C7EF77000B49E59 /* tha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tha.mp3; sourceTree = "<group>"; };
+		D182BFB42C7EF77000B49E59 /* taa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taa.mp3; sourceTree = "<group>"; };
+		D182BFB52C7EF77000B49E59 /* shiin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shiin.mp3; sourceTree = "<group>"; };
+		D182BFB62C7EF77000B49E59 /* alif.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alif.mp3; sourceTree = "<group>"; };
+		D182BFE72C7F057700B49E59 /* eight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eight.mp3; sourceTree = "<group>"; };
+		D182BFE82C7F057700B49E59 /* ten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ten.mp3; sourceTree = "<group>"; };
+		D182BFE92C7F057700B49E59 /* six.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = six.mp3; sourceTree = "<group>"; };
+		D182BFEA2C7F057700B49E59 /* four.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = four.mp3; sourceTree = "<group>"; };
+		D182BFEB2C7F057700B49E59 /* nine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nine.mp3; sourceTree = "<group>"; };
+		D182BFEC2C7F057700B49E59 /* five.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = five.mp3; sourceTree = "<group>"; };
+		D182BFED2C7F057700B49E59 /* two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = two.mp3; sourceTree = "<group>"; };
+		D182BFEE2C7F057700B49E59 /* three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = three.mp3; sourceTree = "<group>"; };
+		D182BFEF2C7F057700B49E59 /* seven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seven.mp3; sourceTree = "<group>"; };
+		D182BFF02C7F057700B49E59 /* one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = one.mp3; sourceTree = "<group>"; };
+		D182BFFB2C7F08D000B49E59 /* rajb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rajb.mp3; sourceTree = "<group>"; };
+		D182BFFC2C7F08D000B49E59 /* safar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = safar.mp3; sourceTree = "<group>"; };
+		D182BFFD2C7F08D000B49E59 /* muharram.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muharram.mp3; sourceTree = "<group>"; };
+		D182BFFE2C7F08D000B49E59 /* rabi_al_awwal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rabi_al_awwal.mp3; sourceTree = "<group>"; };
+		D182BFFF2C7F08D000B49E59 /* shaban.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shaban.mp3; sourceTree = "<group>"; };
+		D182C0002C7F08D000B49E59 /* shawwal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shawwal.mp3; sourceTree = "<group>"; };
+		D182C0012C7F08D000B49E59 /* ramadan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ramadan.mp3; sourceTree = "<group>"; };
+		D182C0022C7F08D000B49E59 /* dhu_al_qidah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dhu_al_qidah.mp3; sourceTree = "<group>"; };
+		D182C0032C7F08D000B49E59 /* rabi_al_thani.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rabi_al_thani.mp3; sourceTree = "<group>"; };
+		D182C0042C7F08D000B49E59 /* jumada_al_awwal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jumada_al_awwal.mp3; sourceTree = "<group>"; };
+		D182C0052C7F08D000B49E59 /* jumada_al_thani.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jumada_al_thani.mp3; sourceTree = "<group>"; };
+		D182C0062C7F08D000B49E59 /* dhu_al_hijjah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dhu_al_hijjah.mp3; sourceTree = "<group>"; };
+		D182C0132C7F265600B49E59 /* FridaySunnah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridaySunnah.swift; sourceTree = "<group>"; };
+		D1C1D5122C3C0FD1005C7940 /* DeenBytes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeenBytes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C1D5152C3C0FD1005C7940 /* DeenBytesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeenBytesApp.swift; sourceTree = "<group>"; };
+		D1C1D5172C3C0FD1005C7940 /* PrayerTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeView.swift; sourceTree = "<group>"; };
+		D1C1D5192C3C0FD2005C7940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1C1D51C2C3C0FD2005C7940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1C1D5222C3C0FD2005C7940 /* DeenBytesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeenBytesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C1D5262C3C0FD2005C7940 /* DeenBytesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeenBytesTests.swift; sourceTree = "<group>"; };
+		D1C1D52C2C3C0FD2005C7940 /* DeenBytesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeenBytesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C1D5302C3C0FD2005C7940 /* DeenBytesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeenBytesUITests.swift; sourceTree = "<group>"; };
+		D1C1D5322C3C0FD2005C7940 /* DeenBytesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeenBytesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C1D50F2C3C0FD1005C7940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C1D51F2C3C0FD2005C7940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C1D5292C3C0FD2005C7940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D14802CA2C75CF9F006324AE /* Kids Section */ = {
+			isa = PBXGroup;
+			children = (
+				D14802C82C746793006324AE /* CountingView.swift */,
+				D14802CB2C75CFC8006324AE /* PillarsIslam.swift */,
+				D14802CD2C760CD2006324AE /* PillarIman.swift */,
+				D14802CF2C78957D006324AE /* AlphabetView.swift */,
+				D127CA802C7A014B00545E41 /* KidsHomepage.swift */,
+				D127CA822C7A029000545E41 /* CalenderView.swift */,
+				D182C0132C7F265600B49E59 /* FridaySunnah.swift */,
+			);
+			path = "Kids Section";
+			sourceTree = "<group>";
+		};
+		D14C58852C81C8430029F7FF /* Login Section */ = {
+			isa = PBXGroup;
+			children = (
+				D14C58862C81C85E0029F7FF /* PhoneNumberLogin.swift */,
+				D14C58882C8355E80029F7FF /* OtpVerificationView.swift */,
+				D14C588A2C8358540029F7FF /* RegisterView.swift */,
+				D14C588C2C83586A0029F7FF /* Launch Screen.storyboard */,
+			);
+			path = "Login Section";
+			sourceTree = "<group>";
+		};
+		D15D3A672C6C8CFF00F2B457 /* FreeFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				D1C1D5172C3C0FD1005C7940 /* PrayerTimeView.swift */,
+				D15D3A402C46A08100F2B457 /* PrayerTimesSettings.swift */,
+				D15D3A422C47A7B400F2B457 /* NavigationView.swift */,
+				D15D3A462C4939E000F2B457 /* LocationNavBar.swift */,
+				D15D3A482C4A46A100F2B457 /* EditProfileNav.swift */,
+				D15D3A4A2C4A4CD000F2B457 /* AccountDeletionNav.swift */,
+				D15D3A512C50FA9B00F2B457 /* LocationManager.swift */,
+				D15D3A532C50FAB500F2B457 /* SensorManager.swift */,
+				D15D3A552C510C7400F2B457 /* LocationFetcherView.swift */,
+				D15D3A572C57865600F2B457 /* ParentalControlsView.swift */,
+				D141A8052C3E5CDF00398C1B /* PrayerTrackingView.swift */,
+				D15D3A5B2C57B1D500F2B457 /* TasbihView.swift */,
+				D15D3A5D2C5B9D0E00F2B457 /* AllFeaturesVIew.swift */,
+				D15D3A5F2C60AEC300F2B457 /* DuaVIew.swift */,
+				D15D3A612C6214CB00F2B457 /* DuaChaptersView.swift */,
+				D15D3A632C624B6600F2B457 /* DuahDetailsView.swift */,
+				D15D3A652C65E3E900F2B457 /* MosqueLocator.swift */,
+				D141A8072C40064F00398C1B /* QiblraTracking.swift */,
+				D141A8092C401A6E00398C1B /* QiblaFinder.swift */,
+				D141A80B2C44E22700398C1B /* ZakkatView.swift */,
+				D15D3A3A2C4688EF00F2B457 /* AllahNames.swift */,
+				D15D3A3C2C4698ED00F2B457 /* LiveMakkah.swift */,
+			);
+			path = FreeFeatures;
+			sourceTree = "<group>";
+		};
+		D1C1D5092C3C0FD1005C7940 = {
+			isa = PBXGroup;
+			children = (
+				D182C0062C7F08D000B49E59 /* dhu_al_hijjah.mp3 */,
+				D182C0022C7F08D000B49E59 /* dhu_al_qidah.mp3 */,
+				D182C0042C7F08D000B49E59 /* jumada_al_awwal.mp3 */,
+				D182C0052C7F08D000B49E59 /* jumada_al_thani.mp3 */,
+				D182BFFD2C7F08D000B49E59 /* muharram.mp3 */,
+				D182BFFE2C7F08D000B49E59 /* rabi_al_awwal.mp3 */,
+				D182C0032C7F08D000B49E59 /* rabi_al_thani.mp3 */,
+				D182BFFB2C7F08D000B49E59 /* rajb.mp3 */,
+				D182C0012C7F08D000B49E59 /* ramadan.mp3 */,
+				D182BFFC2C7F08D000B49E59 /* safar.mp3 */,
+				D182BFFF2C7F08D000B49E59 /* shaban.mp3 */,
+				D182C0002C7F08D000B49E59 /* shawwal.mp3 */,
+				D182BFE72C7F057700B49E59 /* eight.mp3 */,
+				D182BFEC2C7F057700B49E59 /* five.mp3 */,
+				D182BFEA2C7F057700B49E59 /* four.mp3 */,
+				D182BFEB2C7F057700B49E59 /* nine.mp3 */,
+				D182BFF02C7F057700B49E59 /* one.mp3 */,
+				D182BFEF2C7F057700B49E59 /* seven.mp3 */,
+				D182BFE92C7F057700B49E59 /* six.mp3 */,
+				D182BFE82C7F057700B49E59 /* ten.mp3 */,
+				D182BFEE2C7F057700B49E59 /* three.mp3 */,
+				D182BFED2C7F057700B49E59 /* two.mp3 */,
+				D182BFB62C7EF77000B49E59 /* alif.mp3 */,
+				D182BFB12C7EF77000B49E59 /* ayn.mp3 */,
+				D182BFA22C7EF76F00B49E59 /* ba.mp3 */,
+				D182BFAA2C7EF76F00B49E59 /* daad.mp3 */,
+				D182BFB22C7EF77000B49E59 /* daal.mp3 */,
+				D182BFAC2C7EF76F00B49E59 /* fa.mp3 */,
+				D182BFB02C7EF77000B49E59 /* ghayn.mp3 */,
+				D182BFA92C7EF76F00B49E59 /* ha.mp3 */,
+				D182BFA02C7EF76F00B49E59 /* hha.mp3 */,
+				D182BFA42C7EF76F00B49E59 /* jiim.mp3 */,
+				D182BFA72C7EF76F00B49E59 /* kaf.mp3 */,
+				D182BFA12C7EF76F00B49E59 /* kha.mp3 */,
+				D182BF9E2C7EF76F00B49E59 /* lam.mp3 */,
+				D182BFAD2C7EF77000B49E59 /* miim.mp3 */,
+				D182BFA32C7EF76F00B49E59 /* nuun.mp3 */,
+				D182BFAE2C7EF77000B49E59 /* qaf.mp3 */,
+				D182BF9B2C7EF76F00B49E59 /* ra.mp3 */,
+				D182BFA52C7EF76F00B49E59 /* saad.mp3 */,
+				D182BFB52C7EF77000B49E59 /* shiin.mp3 */,
+				D182BFA62C7EF76F00B49E59 /* siin.mp3 */,
+				D182BF9F2C7EF76F00B49E59 /* ta.mp3 */,
+				D182BFB42C7EF77000B49E59 /* taa.mp3 */,
+				D182BFB32C7EF77000B49E59 /* tha.mp3 */,
+				D182BFAB2C7EF76F00B49E59 /* thaa.mp3 */,
+				D182BFA82C7EF76F00B49E59 /* thaal.mp3 */,
+				D182BFAF2C7EF77000B49E59 /* waw.mp3 */,
+				D182BF9C2C7EF76F00B49E59 /* ya.mp3 */,
+				D182BF9D2C7EF76F00B49E59 /* zay.mp3 */,
+				D1C1D5142C3C0FD1005C7940 /* DeenBytes */,
+				D1C1D5252C3C0FD2005C7940 /* DeenBytesTests */,
+				D1C1D52F2C3C0FD2005C7940 /* DeenBytesUITests */,
+				D1C1D5132C3C0FD1005C7940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C1D5132C3C0FD1005C7940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1C1D5122C3C0FD1005C7940 /* DeenBytes.app */,
+				D1C1D5222C3C0FD2005C7940 /* DeenBytesTests.xctest */,
+				D1C1D52C2C3C0FD2005C7940 /* DeenBytesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1C1D5142C3C0FD1005C7940 /* DeenBytes */ = {
+			isa = PBXGroup;
+			children = (
+				D14C58852C81C8430029F7FF /* Login Section */,
+				D182BF912C7DDE5000B49E59 /* DeenBytes.entitlements */,
+				D182BF902C7DDD3000B49E59 /* Info.plist */,
+				D14802CA2C75CF9F006324AE /* Kids Section */,
+				D15D3A672C6C8CFF00F2B457 /* FreeFeatures */,
+				D1C1D5152C3C0FD1005C7940 /* DeenBytesApp.swift */,
+				D1C1D5192C3C0FD2005C7940 /* Assets.xcassets */,
+				D1C1D51B2C3C0FD2005C7940 /* Preview Content */,
+				D15D3A442C4938E700F2B457 /* Homepage.swift */,
+				D15D3A682C6C8DAC00F2B457 /* HomepageViewModel.swift */,
+			);
+			path = DeenBytes;
+			sourceTree = "<group>";
+		};
+		D1C1D51B2C3C0FD2005C7940 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1C1D51C2C3C0FD2005C7940 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1C1D5252C3C0FD2005C7940 /* DeenBytesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C1D5262C3C0FD2005C7940 /* DeenBytesTests.swift */,
+			);
+			path = DeenBytesTests;
+			sourceTree = "<group>";
+		};
+		D1C1D52F2C3C0FD2005C7940 /* DeenBytesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1C1D5302C3C0FD2005C7940 /* DeenBytesUITests.swift */,
+				D1C1D5322C3C0FD2005C7940 /* DeenBytesUITestsLaunchTests.swift */,
+			);
+			path = DeenBytesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1C1D5112C3C0FD1005C7940 /* DeenBytes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C1D5362C3C0FD2005C7940 /* Build configuration list for PBXNativeTarget "DeenBytes" */;
+			buildPhases = (
+				D1C1D50E2C3C0FD1005C7940 /* Sources */,
+				D1C1D50F2C3C0FD1005C7940 /* Frameworks */,
+				D1C1D5102C3C0FD1005C7940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeenBytes;
+			packageProductDependencies = (
+			);
+			productName = DeenBytes;
+			productReference = D1C1D5122C3C0FD1005C7940 /* DeenBytes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1C1D5212C3C0FD2005C7940 /* DeenBytesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C1D5392C3C0FD2005C7940 /* Build configuration list for PBXNativeTarget "DeenBytesTests" */;
+			buildPhases = (
+				D1C1D51E2C3C0FD2005C7940 /* Sources */,
+				D1C1D51F2C3C0FD2005C7940 /* Frameworks */,
+				D1C1D5202C3C0FD2005C7940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C1D5242C3C0FD2005C7940 /* PBXTargetDependency */,
+			);
+			name = DeenBytesTests;
+			productName = DeenBytesTests;
+			productReference = D1C1D5222C3C0FD2005C7940 /* DeenBytesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1C1D52B2C3C0FD2005C7940 /* DeenBytesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C1D53C2C3C0FD2005C7940 /* Build configuration list for PBXNativeTarget "DeenBytesUITests" */;
+			buildPhases = (
+				D1C1D5282C3C0FD2005C7940 /* Sources */,
+				D1C1D5292C3C0FD2005C7940 /* Frameworks */,
+				D1C1D52A2C3C0FD2005C7940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1C1D52E2C3C0FD2005C7940 /* PBXTargetDependency */,
+			);
+			name = DeenBytesUITests;
+			productName = DeenBytesUITests;
+			productReference = D1C1D52C2C3C0FD2005C7940 /* DeenBytesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1C1D50A2C3C0FD1005C7940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D1C1D5112C3C0FD1005C7940 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D1C1D5212C3C0FD2005C7940 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D1C1D5112C3C0FD1005C7940;
+					};
+					D1C1D52B2C3C0FD2005C7940 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D1C1D5112C3C0FD1005C7940;
+					};
+				};
+			};
+			buildConfigurationList = D1C1D50D2C3C0FD1005C7940 /* Build configuration list for PBXProject "DeenBytes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1C1D5092C3C0FD1005C7940;
+			packageReferences = (
+			);
+			productRefGroup = D1C1D5132C3C0FD1005C7940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1C1D5112C3C0FD1005C7940 /* DeenBytes */,
+				D1C1D5212C3C0FD2005C7940 /* DeenBytesTests */,
+				D1C1D52B2C3C0FD2005C7940 /* DeenBytesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1C1D5102C3C0FD1005C7940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D182C0072C7F08D000B49E59 /* rajb.mp3 in Resources */,
+				D182C0082C7F08D000B49E59 /* safar.mp3 in Resources */,
+				D182C0092C7F08D000B49E59 /* muharram.mp3 in Resources */,
+				D182C00A2C7F08D000B49E59 /* rabi_al_awwal.mp3 in Resources */,
+				D182C00B2C7F08D000B49E59 /* shaban.mp3 in Resources */,
+				D182C00C2C7F08D000B49E59 /* shawwal.mp3 in Resources */,
+				D182C00D2C7F08D000B49E59 /* ramadan.mp3 in Resources */,
+				D182C00E2C7F08D000B49E59 /* dhu_al_qidah.mp3 in Resources */,
+				D182C00F2C7F08D000B49E59 /* rabi_al_thani.mp3 in Resources */,
+				D182C0102C7F08D000B49E59 /* jumada_al_awwal.mp3 in Resources */,
+				D182C0112C7F08D000B49E59 /* jumada_al_thani.mp3 in Resources */,
+				D182C0122C7F08D000B49E59 /* dhu_al_hijjah.mp3 in Resources */,
+				D182BFF12C7F057700B49E59 /* eight.mp3 in Resources */,
+				D182BFF22C7F057700B49E59 /* ten.mp3 in Resources */,
+				D182BFF32C7F057700B49E59 /* six.mp3 in Resources */,
+				D182BFF42C7F057700B49E59 /* four.mp3 in Resources */,
+				D182BFF52C7F057700B49E59 /* nine.mp3 in Resources */,
+				D182BFF62C7F057700B49E59 /* five.mp3 in Resources */,
+				D182BFF72C7F057700B49E59 /* two.mp3 in Resources */,
+				D182BFF82C7F057700B49E59 /* three.mp3 in Resources */,
+				D182BFF92C7F057700B49E59 /* seven.mp3 in Resources */,
+				D182BFFA2C7F057700B49E59 /* one.mp3 in Resources */,
+				D182BFB72C7EF77000B49E59 /* ra.mp3 in Resources */,
+				D182BFB82C7EF77000B49E59 /* ya.mp3 in Resources */,
+				D182BFB92C7EF77000B49E59 /* zay.mp3 in Resources */,
+				D182BFBA2C7EF77000B49E59 /* lam.mp3 in Resources */,
+				D182BFBB2C7EF77000B49E59 /* ta.mp3 in Resources */,
+				D182BFBC2C7EF77000B49E59 /* hha.mp3 in Resources */,
+				D182BFBD2C7EF77000B49E59 /* kha.mp3 in Resources */,
+				D182BFBE2C7EF77000B49E59 /* ba.mp3 in Resources */,
+				D182BFBF2C7EF77000B49E59 /* nuun.mp3 in Resources */,
+				D182BFC02C7EF77000B49E59 /* jiim.mp3 in Resources */,
+				D14C588D2C83586A0029F7FF /* Launch Screen.storyboard in Resources */,
+				D182BFC12C7EF77000B49E59 /* saad.mp3 in Resources */,
+				D182BFC22C7EF77000B49E59 /* siin.mp3 in Resources */,
+				D182BFC32C7EF77000B49E59 /* kaf.mp3 in Resources */,
+				D182BFC42C7EF77000B49E59 /* thaal.mp3 in Resources */,
+				D182BFC52C7EF77000B49E59 /* ha.mp3 in Resources */,
+				D182BFC62C7EF77000B49E59 /* daad.mp3 in Resources */,
+				D182BFC72C7EF77000B49E59 /* thaa.mp3 in Resources */,
+				D182BFC82C7EF77000B49E59 /* fa.mp3 in Resources */,
+				D182BFC92C7EF77000B49E59 /* miim.mp3 in Resources */,
+				D182BFCA2C7EF77000B49E59 /* qaf.mp3 in Resources */,
+				D182BFCB2C7EF77000B49E59 /* waw.mp3 in Resources */,
+				D182BFCC2C7EF77000B49E59 /* ghayn.mp3 in Resources */,
+				D182BFCD2C7EF77000B49E59 /* ayn.mp3 in Resources */,
+				D182BFCE2C7EF77000B49E59 /* daal.mp3 in Resources */,
+				D182BFCF2C7EF77000B49E59 /* tha.mp3 in Resources */,
+				D182BFD02C7EF77000B49E59 /* taa.mp3 in Resources */,
+				D182BFD12C7EF77000B49E59 /* shiin.mp3 in Resources */,
+				D182BFD22C7EF77000B49E59 /* alif.mp3 in Resources */,
+				D1C1D51D2C3C0FD2005C7940 /* Preview Assets.xcassets in Resources */,
+				D1C1D51A2C3C0FD2005C7940 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C1D5202C3C0FD2005C7940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C1D52A2C3C0FD2005C7940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1C1D50E2C3C0FD1005C7940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D141A80C2C44E22700398C1B /* ZakkatView.swift in Sources */,
+				D14802C92C746793006324AE /* CountingView.swift in Sources */,
+				D15D3A3D2C4698ED00F2B457 /* LiveMakkah.swift in Sources */,
+				D15D3A522C50FA9B00F2B457 /* LocationManager.swift in Sources */,
+				D15D3A542C50FAB500F2B457 /* SensorManager.swift in Sources */,
+				D15D3A432C47A7B400F2B457 /* NavigationView.swift in Sources */,
+				D15D3A562C510C7400F2B457 /* LocationFetcherView.swift in Sources */,
+				D15D3A642C624B6600F2B457 /* DuahDetailsView.swift in Sources */,
+				D127CA812C7A014B00545E41 /* KidsHomepage.swift in Sources */,
+				D127CA832C7A029000545E41 /* CalenderView.swift in Sources */,
+				D141A80A2C401A6F00398C1B /* QiblaFinder.swift in Sources */,
+				D14802CC2C75CFC8006324AE /* PillarsIslam.swift in Sources */,
+				D14C58872C81C85E0029F7FF /* PhoneNumberLogin.swift in Sources */,
+				D15D3A582C57865600F2B457 /* ParentalControlsView.swift in Sources */,
+				D15D3A5C2C57B1D500F2B457 /* TasbihView.swift in Sources */,
+				D141A8062C3E5CDF00398C1B /* PrayerTrackingView.swift in Sources */,
+				D15D3A3B2C4688EF00F2B457 /* AllahNames.swift in Sources */,
+				D14C58892C8355E80029F7FF /* OtpVerificationView.swift in Sources */,
+				D15D3A662C65E3E900F2B457 /* MosqueLocator.swift in Sources */,
+				D15D3A5E2C5B9D0E00F2B457 /* AllFeaturesVIew.swift in Sources */,
+				D15D3A492C4A46A100F2B457 /* EditProfileNav.swift in Sources */,
+				D15D3A472C4939E000F2B457 /* LocationNavBar.swift in Sources */,
+				D15D3A412C46A08100F2B457 /* PrayerTimesSettings.swift in Sources */,
+				D15D3A452C4938E700F2B457 /* Homepage.swift in Sources */,
+				D14802D02C78957D006324AE /* AlphabetView.swift in Sources */,
+				D141A8082C40064F00398C1B /* QiblraTracking.swift in Sources */,
+				D15D3A602C60AEC300F2B457 /* DuaVIew.swift in Sources */,
+				D182C0142C7F265600B49E59 /* FridaySunnah.swift in Sources */,
+				D15D3A692C6C8DAC00F2B457 /* HomepageViewModel.swift in Sources */,
+				D1C1D5182C3C0FD1005C7940 /* PrayerTimeView.swift in Sources */,
+				D14802CE2C760CD2006324AE /* PillarIman.swift in Sources */,
+				D14C588B2C8358540029F7FF /* RegisterView.swift in Sources */,
+				D15D3A622C6214CB00F2B457 /* DuaChaptersView.swift in Sources */,
+				D1C1D5162C3C0FD1005C7940 /* DeenBytesApp.swift in Sources */,
+				D15D3A4B2C4A4CD000F2B457 /* AccountDeletionNav.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C1D51E2C3C0FD2005C7940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C1D5272C3C0FD2005C7940 /* DeenBytesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C1D5282C3C0FD2005C7940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C1D5332C3C0FD2005C7940 /* DeenBytesUITestsLaunchTests.swift in Sources */,
+				D1C1D5312C3C0FD2005C7940 /* DeenBytesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1C1D5242C3C0FD2005C7940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C1D5112C3C0FD1005C7940 /* DeenBytes */;
+			targetProxy = D1C1D5232C3C0FD2005C7940 /* PBXContainerItemProxy */;
+		};
+		D1C1D52E2C3C0FD2005C7940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1C1D5112C3C0FD1005C7940 /* DeenBytes */;
+			targetProxy = D1C1D52D2C3C0FD2005C7940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1C1D5342C3C0FD2005C7940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1C1D5352C3C0FD2005C7940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1C1D5372C3C0FD2005C7940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeenBytes/DeenBytes.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeenBytes/Preview Content\"";
+				DEVELOPMENT_TEAM = F2SL2W3RY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeenBytes/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ThirdEyeProductions.DeenBytess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1C1D5382C3C0FD2005C7940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DeenBytes/DeenBytes.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeenBytes/Preview Content\"";
+				DEVELOPMENT_TEAM = F2SL2W3RY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeenBytes/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ThirdEyeProductions.DeenBytess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1C1D53A2C3C0FD2005C7940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ThirdEyeProductions.DeenBytesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeenBytes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeenBytes";
+			};
+			name = Debug;
+		};
+		D1C1D53B2C3C0FD2005C7940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ThirdEyeProductions.DeenBytesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeenBytes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeenBytes";
+			};
+			name = Release;
+		};
+		D1C1D53D2C3C0FD2005C7940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ThirdEyeProductions.DeenBytesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeenBytes;
+			};
+			name = Debug;
+		};
+		D1C1D53E2C3C0FD2005C7940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ThirdEyeProductions.DeenBytesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeenBytes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1C1D50D2C3C0FD1005C7940 /* Build configuration list for PBXProject "DeenBytes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C1D5342C3C0FD2005C7940 /* Debug */,
+				D1C1D5352C3C0FD2005C7940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1C1D5362C3C0FD2005C7940 /* Build configuration list for PBXNativeTarget "DeenBytes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C1D5372C3C0FD2005C7940 /* Debug */,
+				D1C1D5382C3C0FD2005C7940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1C1D5392C3C0FD2005C7940 /* Build configuration list for PBXNativeTarget "DeenBytesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C1D53A2C3C0FD2005C7940 /* Debug */,
+				D1C1D53B2C3C0FD2005C7940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1C1D53C2C3C0FD2005C7940 /* Build configuration list for PBXNativeTarget "DeenBytesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C1D53D2C3C0FD2005C7940 /* Debug */,
+				D1C1D53E2C3C0FD2005C7940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1C1D50A2C3C0FD1005C7940 /* Project object */;
+}
